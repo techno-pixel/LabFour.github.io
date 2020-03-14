@@ -1,0 +1,54 @@
+{
+    "strangeProducts" :
+    [
+        {
+            "name" : "Cat Butt Tissue Holder",
+            "price" : 34.94,
+            "details" :
+            [
+                "cat",
+                "tissue dispenser"
+            ],
+            "image" : "buttcat.jpg"
+        },
+        {
+            "name" : "Dog Dryer",
+            "price" : 39.95,
+            "details" : "Having a dog dry itself off all over your living room post-bath is rarely ideal. Fortunately, there's a bizarre blow-dryer suit out there that can help keep your pup from dripping all over the house.",
+            "image" : "pizza-2.jpg"
+        },
+        {
+            "name" : "Godzilla Gnome",
+            "price" : 24.99,
+            "details" :
+            [
+                "cute",
+                "godzilla",
+                "lucky"
+            ],
+            "image" : "zillakilla.jpg"
+        },
+        {
+            "name" : "Dill Pickle Lip Balm",
+            "price" : 11.95,
+            "details" :
+            [
+                "tasty",
+                "fresh",
+                "long-lasting"
+            ],
+            "image" : "pickledill.jpg"
+        },
+        {
+            "name" : "Pizza Hat",
+            "price" : 11.62,
+            "details" :
+            [
+                "fashion forward",
+                "creative",
+                "inspiring"
+            ],
+            "image" : "pizzahat.jpg"
+        }
+    ]
+}
