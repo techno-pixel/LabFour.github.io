@@ -33,11 +33,11 @@ function strangeProducts(json)
         p1.textContent = 'Size ' + strangeProducts[i].size;
         p2.textContent = 'Price ' + strangeProducts[i].price;
 
-        let description = strangeProducts[i].description;
+        let details = strangeProducts[i].details;
         for(let j = 0; j< strangeProducts.length; j++)
         {
             let listItem = document.createElement('li');
-            listItem.textContent = description[j];
+            listItem.textContent = details[j];
             ul.appendChild(listItem);
         }
 
