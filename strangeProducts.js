@@ -27,8 +27,8 @@ function strangeProducts(json)
         let p2 = document.createElement('p');
         let ul = document.createElement('ul');
 
-        img.setAttribute('src', 'https://techno-pixel.github.io/LabFour.github.io/img/' + strangeProducts[i].name);
-        img.setAttribute('alt', strangeProducts[i].image);
+        img.setAttribute('src', 'https://techno-pixel.github.io/LabFour.github.io/img/' + strangeProducts[i].image);
+        img.setAttribute('alt', strangeProducts[i].name);
         h2.textContent = strangeProducts[i].name;
         p1.textContent = 'Size ' + strangeProducts[i].size;
         p2.textContent = 'Price ' + strangeProducts[i].price;
