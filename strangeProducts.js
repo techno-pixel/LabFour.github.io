@@ -14,7 +14,7 @@ function loadAsset(url, type, callback)
 
 function strangeProducts(json)
 {
-    let strangeProducts = json;
+    let strangeProducts = JSON.parse(json).strangeProducts;
     let section = document.querySelector('section');
 
     for(let i = 0; i < strangeProducts.length; i++)
