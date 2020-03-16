@@ -12,9 +12,9 @@ function loadAsset(url, type, callback)
     xhr.send();
 }
 
-function strangeProducts(jsonObj)
+function strangeProducts(json)
 {
-    let strangeProducts = jsonObj;
+    let strangeProducts = json;
     let section = document.querySelector('section');
 
     for(let i = 0; i < strangeProducts.length; i++)
@@ -50,7 +50,7 @@ function strangeProducts(jsonObj)
     }
 }
 
-loadAsset('https://techno-pixel.github.io/LabFour.github.io/strangeProducts.json', 'jsonObj', strangeProducts);
+loadAsset('https://techno-pixel.github.io/LabFour.github.io/strangeProducts.json', 'application/json', strangeProducts);
 // loadAsset('https://techno-pixel.github.io/LabFour.github.io/img/buttcat.jpg', 'jsonObj', strangeProducts);
 // loadAsset('https://techno-pixel.github.io/LabFour.github.io/img/dogdry.jpg', 'jsonObj', strangeProducts);
 // loadAsset('https://techno-pixel.github.io/LabFour.github.io/img/zillakilla.jpg', 'jsonObj', strangeProducts);
