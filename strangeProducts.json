@@ -14,7 +14,10 @@
         {
             "name" : "Dog Dryer",
             "price" : 39.95,
-            "details" : "Having a dog dry itself off all over your living room post-bath is rarely ideal. Fortunately, there's a bizarre blow-dryer suit out there that can help keep your pup from dripping all over the house.",
+            "details" : 
+            [ "Having a dog dry itself off all over your living room post-bath is rarely ideal. Fortunately, there's a bizarre blow-dryer suit out there that can help keep your pup from dripping all over the house.",
+              "Who doesn't like a good doge" 
+            ],
             "image" : "pizza-2.jpg"
         },
         {
